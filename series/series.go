@@ -22,10 +22,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/apache/arrow/go/v16/arrow"
-	"github.com/apache/arrow/go/v16/arrow/memory"
-	"github.com/apache/badgers"
-	"github.com/apache/badgers/chunked"
+	"github.com/TFMV/badgers"
+	"github.com/TFMV/badgers/chunked"
+	"github.com/apache/arrow-go/v18/arrow"
+	"github.com/apache/arrow-go/v18/arrow/memory"
 )
 
 func NewBinary(name string, vals [][]byte) *Series {

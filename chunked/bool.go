@@ -20,9 +20,9 @@ package chunked
 import (
 	"context"
 
-	"github.com/apache/arrow/go/v16/arrow"
-	"github.com/apache/arrow/go/v16/arrow/compute"
-	"github.com/apache/badgers"
+	"github.com/TFMV/badgers"
+	"github.com/apache/arrow-go/v18/arrow"
+	"github.com/apache/arrow-go/v18/arrow/compute"
 )
 
 func foldReduceBool(ctx context.Context, fn string, lhs, rhs *Bool, extra ...*Bool) (*Bool, error) {

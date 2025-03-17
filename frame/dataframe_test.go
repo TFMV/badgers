@@ -23,10 +23,10 @@ import (
 	"os"
 	"testing"
 
-	"github.com/apache/arrow/go/v16/arrow/memory"
-	"github.com/apache/badgers/chunked"
-	"github.com/apache/badgers/frame"
-	"github.com/apache/badgers/series"
+	"github.com/TFMV/badgers/chunked"
+	"github.com/TFMV/badgers/frame"
+	"github.com/TFMV/badgers/series"
+	"github.com/apache/arrow-go/v18/arrow/memory"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

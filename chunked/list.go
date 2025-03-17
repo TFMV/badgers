@@ -18,8 +18,8 @@
 package chunked
 
 import (
-	"github.com/apache/arrow/go/v16/arrow/array"
-	"github.com/apache/badgers"
+	"github.com/TFMV/badgers"
+	"github.com/apache/arrow-go/v18/arrow/array"
 )
 
 type List struct {
