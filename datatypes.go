@@ -22,8 +22,8 @@ import (
 	"reflect"
 	"slices"
 
-	"github.com/apache/arrow/go/v16/arrow"
-	"github.com/apache/arrow/go/v16/arrow/memory"
+	"github.com/apache/arrow-go/v18/arrow"
+	"github.com/apache/arrow-go/v18/arrow/memory"
 )
 
 //go:generate stringer -type=TimeUnit

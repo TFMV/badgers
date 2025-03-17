@@ -22,9 +22,9 @@ import (
 	"math/rand"
 	"testing"
 
-	"github.com/apache/badgers"
-	"github.com/apache/badgers/chunked"
-	"github.com/apache/badgers/series"
+	"github.com/TFMV/badgers"
+	"github.com/TFMV/badgers/chunked"
+	"github.com/TFMV/badgers/series"
 	"github.com/stretchr/testify/assert"
 )
 

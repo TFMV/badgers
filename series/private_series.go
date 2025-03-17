@@ -22,9 +22,9 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/apache/arrow/go/v16/arrow"
-	"github.com/apache/badgers"
-	"github.com/apache/badgers/chunked"
+	"github.com/TFMV/badgers"
+	"github.com/TFMV/badgers/chunked"
+	"github.com/apache/arrow-go/v18/arrow"
 )
 
 type privateSeriesNumeric interface {
